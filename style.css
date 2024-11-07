@@ -1,0 +1,447 @@
+body {
+    background-color: black;
+}
+
+body {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+#st {
+    position: absolute;
+    font-size: 30px;
+    margin-top: 180px;
+    z-index: 2;
+    color: white;
+
+
+}
+.main span {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.main span:hover {
+    transform: translateY(-10px);
+}
+
+.yellow span {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.yellow:hover span {
+    transform: translateY(-10px) rotate(5deg);
+    color: #ff6347;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #374b55;
+    color: #f9ef23;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    font-family: "Anton";
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    margin-right: 50px;
+    font-size: 30px;
+    color: #f9ef23;
+    transition: transform 0.3s ease, margin 0.3s ease, border 0.3s ease;
+}
+.header:hover {
+    transform: scale(1.1);
+}
+
+#bicepsd {
+    position: absolute;
+    margin-left: 830px;
+    margin-bottom: 100px;
+}
+
+#bicepsg {
+    margin-right: 830px;
+    margin-bottom: 100px;
+    position: absolute;
+}
+
+.container {
+    background-image: url("img/street-workout-parc.jpg");
+    margin-top: 103px;
+    height: 83%;
+    width: 99%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    position: absolute;
+    border-radius: 150px;
+    z-index: 1;
+}
+
+
+
+
+.containermu {
+    background-image: url("img/background_muscleup.png");
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+    border-radius: 150px;
+
+}
+
+.containermu::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    height: 1000px;
+}
+
+
+.contenu {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    margin-top: 700px;
+    margin-bottom: 50px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.contenu h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #f9ef23;
+}
+
+
+
+
+.container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.logo {
+    transition: transform 0.3s ease, margin 0.3s ease, border 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+#bouton {
+    margin-top: 300px;
+    position: absolute;
+    color: black;
+    background-color: #f9ef23;
+    font-size: 30px;
+    z-index: 2;
+    font-size: 50px;
+    text-decoration: none;
+    border-radius: 25px;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: transform 0.3s ease, margin 0.3s ease, border 0.3s ease;
+}
+
+#bouton:visited {
+    color: inherit;
+    text-decoration: none;
+}
+#bouton:hover {
+    transform: scale(1.1);
+}
+
+.main {
+    font-family: "Anton";
+    font-style: italic;
+    font-size: 40px;
+    z-index: 2;
+    text-shadow: 
+        5px 5px 0 #808080,
+        -5px -5px 0 #808080,
+        5px -5px 0 #808080,
+        -5px 5px 0 #808080;
+    font-size: 130px;
+}
+.logo {
+    width: 250px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.yellow {
+    color: #f9ef23;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #f9ef23;
+}
+
+a:hover {
+    color: #f9ef23;
+}
+
+a:active {
+    color: #f9ef23;
+}
+
+#noir:visited {
+    color: black; 
+}
+
+#noir:hover {
+    color: black;
+}
+
+#noir:active {
+    color: black;
+}
+
+.contenuprogrammes {
+    margin-top: 150px;
+    color: white;
+    font-size: 30px;
+    width: 300px;
+    height: auto;
+}
+
+.contenuprogrammes img {
+    border-radius: 15px;
+    width: 500px;
+    height: auto;
+}
+
+#imgmuscleup {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#hmuscleup {
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 5px;
+    color: #f9ef23;
+    font-family: "Anton";
+}
+
+#pmuscleup {
+    font-style: italic;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+
+#imgmuscleup,
+#hmuscleup {
+    transition: transform 0.3s ease, margin 0.3s ease, border 0.3s ease;
+}
+
+#imgmuscleup:hover,
+#hmuscleup:hover {
+    transform: scale(1.1);
+}
+
+#imgfrontlever,
+#hfrontlever {
+    transition: transform 0.3s ease, margin 0.3s ease, border 0.3s ease;
+}
+
+#imgfrontlever:hover,
+#hfrontlever:hover {
+    transform: scale(1.1);
+}
+
+#imghandstand,
+#hhandstand {
+    transition: transform 0.3s ease, margin 0.3s ease, border 0.3s ease;
+}
+
+#imghandstand:hover,
+#hhandstand:hover {
+    transform: scale(1.1);
+}
+
+#imgfrontlever {
+    position: absolute;
+    margin-left: 970px;
+    margin-top: 400px;
+}
+
+#hfrontlever {
+    position: absolute;
+    margin-left: 410px;
+    margin-top: 383px;
+    color: #f9ef23;
+    font-family: "Anton";
+    text-align: right;
+}
+
+#pfrontlever {
+    font-style: italic;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 480px;
+    text-align: right;
+}
+
+#imghandstand {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 780px;
+}
+
+#hhandstand {
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 765px;
+    color: #f9ef23;
+    font-family: "Anton";
+}
+
+#phandstand {
+    font-style: italic;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 850px;
+}
+
+.containerft {
+    background-image: url("img/background_frontlever.png");
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+    border-radius: 150px;
+}
+
+.containerft::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    height: 1000px;
+}
+
+.contenuft {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    margin-top: 1200px;
+    margin-bottom: 50px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.contenuft h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #f9ef23;
+}
+
+.containerhd {
+    background-image: url("img/background_handstand.png");
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+    border-radius: 150px;
+}
+
+.containerhd::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    height: 1000px;
+}
+
+.contenuhd {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    margin-top: 1200px;
+    margin-bottom: 50px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.contenuhd h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #f9ef23;
+}
